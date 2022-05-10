@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 const json = require("./json");
 
 let pets = [
