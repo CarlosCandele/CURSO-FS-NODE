@@ -178,5 +178,3 @@ const removerPet = (id, lista) =>{
   }
 } 
 removerPet(1, pets);
-
-// console.log("alterando arquivo na mesma linha")
