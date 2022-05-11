@@ -174,7 +174,9 @@ const removerPet = (id, lista) =>{
     pets.splice(id - 1, 1)// splice remove ou adiciona um elemento
     console.log(pets);
   }else{
-    console.log("Não encotramos nenhum pet com id " + id)
+    console.log("Não encotramos nenhum pet com id! " + id)
   }
 } 
 removerPet(1, pets);
+
+// console.log("alterando arquivo na mesma linha")
