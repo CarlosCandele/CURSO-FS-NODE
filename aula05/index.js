@@ -178,3 +178,4 @@ const removerPet = (id, lista) =>{
   }
 } 
 removerPet(1, pets);
+console.log("quando trabalhamos com a branch temos verções diferentes")
