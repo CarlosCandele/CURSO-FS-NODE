@@ -165,7 +165,7 @@ const listarPets = (pets)=>{
 //o ID passado não seja encontrado na lista de pets, iremos retornar uma mensagem do tipo: 
 //"Não encotramos nenhum pet com id " + idPet
 
-const removerPet = (id, lista) =>{
+const removerPet = (id, lista, objeto) =>{
   let pet = lista.filter((pet) =>{
     return pet.id == id;
     console.log(pet);
@@ -178,3 +178,4 @@ const removerPet = (id, lista) =>{
   }
 } 
 removerPet(1, pets);
+console.log("quando trabalhamos com a branch temos verções diferentes")
