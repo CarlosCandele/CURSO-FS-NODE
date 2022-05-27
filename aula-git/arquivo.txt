@@ -5,4 +5,6 @@ reviewer para o nosso codigo.
 Vimos os comandos git:
 git add(adiciona no stage)
 git commit -m "mensagem" (adicionar mensagem para o pacote de alterações)
-git pull(traz alterações do Repositório remoto para o nosso repositório local)
+git pull(traz alterações do Repositório remoto para o nosso repositório local,busta
+alinhar as alterações do Github com as alterações do repositório local)
+git checkout -b nomeDaBranch(cria uma nova branch e clona todos os arquivos do repositório local)
