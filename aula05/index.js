@@ -53,7 +53,7 @@ const petsVacina=(lista)=>{
 
 //petsVacina(pets);
 
-//Resolução 2
+//Resolução
 
 const petsNaoVacinados = (array) =>{
   let quantVacinados = pets.filter((objeto)=> objeto.vacinado);

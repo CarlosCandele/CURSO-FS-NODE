@@ -1,0 +1,8 @@
+Na aula de hoje abordamos sobre: conflitos, criação de branch, como trocar
+para uma branch ja existente, criação de pull request e como adicionar um
+reviewer para o nosso codigo.
+
+Vimos os comandos git:
+git add(adiciona no stage)
+git commit -m "mensagem" (adicionar mensagem para o pacote de alterações)
+git pull(traz alterações do Repositório remoto para o nosso repositório local)
