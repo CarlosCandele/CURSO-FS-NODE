@@ -68,7 +68,7 @@ function cadastrarPetsSpreadOperator(pets, json){
   pets.push(...arrayPetJson)
   return pets
 }
-
+//console.log(cadastrarPetsSpreadOperator(pets, json))
 function cadastrarPetsFor(pets, json){
   let arrayPetJson = JSON.parse(json);
 
@@ -77,7 +77,7 @@ function cadastrarPetsFor(pets, json){
   }
   return pets
 }
-//console.log(cadastrarPetsSpreadOperator(pets, json))
+
 console.log(cadastrarPetsFor(pets, json))
 
 
