@@ -55,8 +55,7 @@ function validaDados(objetoPet){
     typeof objetoPet.idade === 'number' &&
     typeof objetoPet.genero === 'string' &&
     typeof objetoPet.vacinado === 'boolean' 
-    )
-    
+    )   
 }
 
 
@@ -79,10 +78,11 @@ let novoPet = {
     raca: 'auau',
     idade: 7,
     genero: 'Masculino',
+    vacinado: true,
     
 }
 
-//addPets(novoPet);
+addPets(novoPet);
 
 
 //Calback
@@ -108,10 +108,10 @@ function multiplica(numero1, numero2){
     
 }
 
-calcular(25,67,soma);
-calcular(32, 36, subtrai);
-calcular(55, 40, divide);
-calcular(60, 35, multiplica);
+//calcular(25,67,soma);
+//calcular(32, 36, subtrai);
+//calcular(55, 40, divide);
+//calcular(60, 35, multiplica);
 
 
 //spred operator 
@@ -140,7 +140,7 @@ let y = [
 
 
 x.push(...y);//função spred operator
-console.log(x)
+//console.log(x)
 
 
 
