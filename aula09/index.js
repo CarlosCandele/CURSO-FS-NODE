@@ -5,8 +5,8 @@ const app = express();
 
 // Desafio - criar um servidor com express e utilizar o método listen
 // contendo dentro de um console.log('Servidor rodando na porta: numeroDaPorta')
-app.listen(3000, () => {
-    console.log('Servidor rodando na porta: 3000');
+app.listen(3333, () => {
+    console.log('Servidor rodando na porta: 3333');
 })
 
 
