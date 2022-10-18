@@ -58,6 +58,28 @@ header form {
     background-image: url("../img/product-1.jpg");
 }
 
+.product-image1 {
+    background-image: url("../img/product-2.jpg");
+}
+
+.product-image2 {
+    background-image: url("../img/product-4.jpg");
+}
+
+.product-image3 {
+    background-image: url("../img/product-3.jpg");
+}
+
+.product-image4 {
+    background-image: url("../img/product-5.jpg");
+    width: auto;
+    height: auto;
+}
+
+.product-image5 {
+    background-image: url("../img/product-6.jpg");
+}
+
 .products {
     display: inline-block;
     width: 300px;
@@ -106,7 +128,7 @@ footer {
 
 /* PSEUDO-SELETORES */
     .products:hover {
-        opacity: 0.5;
+        opacity: 0.7;
         cursor: pointer;
     }
 
@@ -114,3 +136,5 @@ footer {
 header form input:focus {
     outline-color: thistle;
 }
+
+/*Formulario contato */
