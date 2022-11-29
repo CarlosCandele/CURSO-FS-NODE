@@ -1,0 +1,51 @@
+
+section{ 
+   justify-content: center;
+}
+
+main h1 {
+    font-size: 37px;
+}
+
+main p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-contact label {
+    display: flex;
+    font: 20px;
+    margin-bottom: 5px;
+}
+
+.form-12 {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.form-contato {
+    display: flex;
+}
+
+.form-contato input {
+    display: flex;
+    height: 20px;
+    width: 300px;
+}
+
+form textarea {
+    resize: none;
+    width: 635px;
+}
+
+.form-contact button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #ffb90f;
+}
+
+

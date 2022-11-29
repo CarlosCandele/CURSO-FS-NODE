@@ -1,0 +1,150 @@
+/*  */
+
+html, body {
+    height: 100%;
+}
+
+
+/* Header */
+header {
+    background-color: #ffb90f;
+    height: 15%;
+    width: 100%;
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header nav img {
+    position: absolute;
+    width: 200px;
+    margin-top: -65px;
+}
+
+header nav ul {
+    display: inline-block;
+    margin-left: 160px;
+   
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 15px 0 0 50px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+header form {
+    margin-left: 475px;
+}
+
+/* Container */
+.container {
+    width: 960px;
+    height: 650px;
+    margin: 40px auto;
+}
+
+/*Section Produtos */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-image {
+    background-image: url("../img/product-1.jpg");
+}
+
+.product-image1 {
+    background-image: url("../img/product-2.jpg");
+}
+
+.product-image2 {
+    background-image: url("../img/product-4.jpg");
+}
+
+.product-image3 {
+    background-image: url("../img/product-3.jpg");
+}
+
+.product-image4 {
+    background-image: url("../img/product-5.jpg");
+    width: auto;
+    height: auto;
+}
+
+.product-image5 {
+    background-image: url("../img/product-6.jpg");
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 15px 15px 0;
+    opacity: 0.9;
+}
+
+.img-label {
+    width: 70px;
+    align-self: flex-end;
+}
+
+.name-product {
+    background: #101010;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.see-more {
+    background:#ff4500;
+    color: white;
+    height: 35px;
+    width: 85px;
+    position: relative;
+    align-self: center;
+    bottom: 35px;
+    border:rgb(78, 70, 70)
+}
+
+/* FOOTER */
+footer {
+    background-color: #ffb90f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    font-size: 23px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* PSEUDO-SELETORES */
+    .products:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+
+/* Formulario */
+header form input:focus {
+    outline-color: thistle;
+}
+
+/*Formulario contato */

@@ -98,4 +98,4 @@ function filtrarPetPorNome(lista, nomePet){
   }
 }
 
-//console.log(filtrarPetPorNome(pets, 'Soiay'))
+console.log(filtrarPetPorNome(pets, 'Soiay'))
