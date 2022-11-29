@@ -176,4 +176,3 @@ function cadastrarPetsSpreadOperator(pets,json){
 //     return pets
 // }
 
-console.log('Alterei meu Repositório')
