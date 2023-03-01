@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/*CUSTOMIZE THE CAROUSEL */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height:32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+}
+
+form textarea {
+  resize: none;
+}
+
+#recipes {
+  height: calc(100vh - 200px)
+}
+
+footer {
+  height: 100px;
+}
+
+footer .icons {
+  font-size: 20px
+}
+
+/* CUSTUMIZE THE CAROUSEL */
+/* .alert {
+  background: #90EE90;
+  position:relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+} */
+

@@ -1,0 +1,1 @@
+module.exports = [{"id":1,"nome":"Jorge","email":"carloscandele@hotmail.com","mensagem":"Receita de macarronada"},{"id":3,"nome":"Santher","email":"santher@hotmail.com","mensagem":"Receita de macarrão alho e óleo"}]
